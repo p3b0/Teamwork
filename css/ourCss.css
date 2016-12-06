@@ -1,0 +1,41 @@
+.popular > img
+{
+    max-width: 155px;
+}
+
+.popularList
+{
+    
+}
+
+.popularList > li > img
+{
+    width:80px;
+}
+
+.us > p
+{
+    text-align: left;
+}
+
+.us > p > img
+{
+    width:250px;
+    height:250px;
+
+}
+
+#contactForm > input, #contactForm > textarea
+{
+    margin-bottom: 5px;
+}
+
+#resetButton
+{
+    background: #FFAAAA;
+}
+
+.infoMap > img
+{
+    width:100px;
+}
