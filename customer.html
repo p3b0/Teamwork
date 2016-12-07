@@ -39,14 +39,8 @@
 						<li><a href="contact.html">Contact</a></li>
 						<li class="current"><a href="#">Customer</a></li>
                         
-                        <!--searchfield-->
-                        <form id="searchForm" class="navbar-form navbar-right" target="_self">
-                            <div class="form-group">
-                                <label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label>
-                                <input class="form-control search-field" type="search" name="search" id="search-field">
-                                <a class="btn btn-default navbar-btn navbar-right action-button" role="button" href="#">Action</a>
-                            </div>
-                        </form>
+                        <!--ÄNDRAS I INJECT.JS-->
+                        <script>document.write(putCode("navSearch"));</script>
 					</ul>
 				</nav>
 
@@ -76,7 +70,21 @@
 												</form>
 											</section>
 
+                                            <section id="shoppingcart">
+                                                <h2>SHOPPING CART</h2>
+                                                <p>THIS IS THE ITEMS IN YOUR CURRENT SHOPPING CART</p>
+                                                <ul id="cartList">
+                                                    <li><img src="images/msi.jpg" alt="" align="left" />MSI<br />It has EVERYTHING!<br /><b>54990kr</b></li>
+                                                    <li><img src="images/asus.jpg" alt="" align="left" />ASUS<br />Ok working computer.<br /><b>12590kr</b></li>
+                                                    <li><img src="images/large.jpg" alt="" align="left" />Noname<br />You GET money for this one.<br /><b>-3990kr</b></li>
+                                                    <li id="total"><b>63.590kr</b></li>
+                                                </ul>
+
+                                            </section>
+                                                
 										</article>
+
+
 
 								</div>
 							</div>
@@ -88,6 +96,7 @@
 					</div>
 				</div>
 
+            <!--ÄNDRAS I INJECT.JS-->
             <script>document.write(putCode("footer"));</script>
 
 		</div>

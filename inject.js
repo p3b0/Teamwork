@@ -145,78 +145,19 @@
                 "</div>"
     }
 
+    if (typeOfCode == "navSearch")
+    {
+        theCode = "<form id='searchForm' class='navbar-form navbar-right' target='_self'>" +
+                            "<div class='form-group'>" +
+                                "<label class='control-label' for='search-field'><i class='glyphicon glyphicon-search'></i></label>" +
+                                "<a href='customer.html#shoppingcart'><i class='fa fa-shopping-cart ourShopping' aria-hidden='true'></i></a><i class='fa fa-search' aria-hidden='true'></i> <input class='form-control search-field' type='search' name='search' id='search-field'>" +
+                                "<a class='btn btn-default navbar-btn navbar-right action-button' role='button' href='#'></a>" +
+                            "</div>" +
+                        "</form>"
+    }
+
     document.write(theCode);
     return theCode();
 }
 
 
-/*
-<div class="3u 12u(mobile)">
-                    <div class="sidebar">
-
-                        <!-- Sidebar -->
-                        <!-- Recent Posts -->
-                        <section>
-                            <h2 class="major"><span>NEWS</span></h2>
-                            <ul class="divided">
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">We're finally live</a></h3>
-                                        <ul class="meta">
-                                            <li>Some cool info about the news in this post. Hopefully it will react as we want in the responsive testing.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Yesterday</i></div>
-                                        
-                                </article>
-                                </li>
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">Just a little more tweaking</a></h3>
-                                        <ul class="meta">
-                                            <li>90% of the job is tweaking, one wonders if this will ever be really done.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Yesterday</i></div>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">What's up?</a></h3>
-                                        <ul class="meta">
-                                            <li>So it begins! the first update to show the teammates, hopefully it will be recieved well.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Two days ago</i></div>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">Checking temperature</a></h3>
-                                        <ul class="meta">
-                                            <li>Homing in on the crowd.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Three days ago</i></div>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">Test</a></h3>
-                                        <ul class="meta">
-                                            <li>A testpost to see what it looks like.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Three days ago</i></div>
-                                    </article>
-                                </li>
-                            </ul>
-                        </section>
-
-                        <!-- Something -->
-                        <section>
-                            <h2 class="major"><span>Gaming set</span></h2>
-                            <a href="#" class="image featured"><img src="images/gamer.jpg" alt="Gamingset" /></a>
-                            <p>
-                                See our gaming computer with the latest CPU, awesome graphics and more power than you'll ever use in the next few years!
-                            </p>
-                        </section>
-
-                    </div>
-                </div>
-                */

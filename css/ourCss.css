@@ -3,14 +3,19 @@
     max-width: 155px;
 }
 
-.popularList
+.popularList > li
 {
-    
+    border-bottom: 1px solid #CCCCCC;
+    line-height:normal;
+    height:60px;
 }
 
 .popularList > li > img
 {
     width:80px;
+    width:70px;
+    vertical-align: text-top;
+    margin-right:10px;
 }
 
 .us > p
@@ -61,4 +66,45 @@
     font-style: italic;
     color:#AAAAAA;
     font-size:11px;
+}
+
+.ourShopping
+{
+    margin-right:15px;
+}
+
+#cartList
+{
+    font-size:12px;
+
+}
+
+.cartList > li
+{
+    border-bottom: 1px solid #CCCCCC;
+    line-height:normal;
+    height:55px;
+}
+
+#cartList > li > img
+{
+    height: 50px;
+    width: 55px;
+    vertical-align: text-top;
+    margin-right:10px;
+}
+
+#total
+{
+    padding-left:65px;
+    font-size:18px;
+    padding-top:5px;
+}
+
+.rightAlign
+{
+    text-align:right;
+    vertical-align:text-top;
+    float:right;
+    font-size:18px;
 }

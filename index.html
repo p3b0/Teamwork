@@ -41,14 +41,9 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="customer.html">Customer</a></li>
-                <!--searchfield-->
-                <form id="searchForm" class="navbar-form navbar-right" target="_self">
-                    <div class="form-group">
-                        <label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label>
-                        <i class="fa fa-search" aria-hidden="true"></i> <input class="form-control search-field" type="search" name="search" id="search-field">
-                        <a class="btn btn-default navbar-btn navbar-right action-button" role="button" href="#"></a>
-                    </div>
-                </form>
+                
+                <!--ÄNDRAS I INJECT.JS-->
+                <script>document.write(putCode("navSearch"));</script>
             </ul>
         </nav>
 
@@ -127,7 +122,7 @@
                     </div>
                 </div>
                 
-
+                <!--ÄNDRAS I INJECT.JS-->
                 <script>document.write(putCode("news"));</script>
 
 
@@ -203,8 +198,8 @@
     </div>
 
         
-
-        <script>document.write(putCode("footer"));</script>
+    <!--ÄNDRAS I INJECT.JS-->
+    <script>document.write(putCode("footer"));</script>
 
 
     </div>
