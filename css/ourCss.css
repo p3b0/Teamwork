@@ -82,7 +82,7 @@
 
 }
 
-.cartList > li
+#cartList > li
 {
     border-bottom: 1px solid #CCCCCC;
     line-height:normal;
