@@ -16,6 +16,8 @@
 		<link rel="stylesheet" href="css/slider.css" />
 		<link rel="stylesheet" href="css/ourCss.css" /> <!-- VÅR CSS -->
         <link rel="stylesheet" href="css/Navigation-with-Search1.css" />
+
+        <script src="inject.js"></script>
 	</head>
 <body class="homepage">
     <div id="page-wrapper">
@@ -124,74 +126,11 @@
 
                     </div>
                 </div>
-                <div class="3u 12u(mobile)">
-                    <div class="sidebar">
+                
 
-                        <!-- Sidebar -->
-                        <!-- Recent Posts -->
-                        <section>
-                            <h2 class="major"><span>NEWS</span></h2>
-                            <ul class="divided">
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">We're finally live</a></h3>
-                                        <ul class="meta">
-                                            <li>Some cool info about the news in this post. Hopefully it will react as we want in the responsive testing.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Yesterday</i></div>
-                                        
-                                </article>
-                                </li>
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">Just a little more tweaking</a></h3>
-                                        <ul class="meta">
-                                            <li>90% of the job is tweaking, one wonders if this will ever be really done.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Yesterday</i></div>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">What's up?</a></h3>
-                                        <ul class="meta">
-                                            <li>So it begins! the first update to show the teammates, hopefully it will be recieved well.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Two days ago</i></div>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">Checking temperature</a></h3>
-                                        <ul class="meta">
-                                            <li>Homing in on the crowd.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Three days ago</i></div>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="box post-summary">
-                                        <h3><a href="#">Test</a></h3>
-                                        <ul class="meta">
-                                            <li>A testpost to see what it looks like.</li>
-                                        </ul>
-                                        <div class="icon fa-clock-o timeStamp"> <i>Three days ago</i></div>
-                                    </article>
-                                </li>
-                            </ul>
-                        </section>
+                <script>document.write(putCode("news"));</script>
 
-                        <!-- Something -->
-                        <section>
-                            <h2 class="major"><span>Gaming set</span></h2>
-                            <a href="#" class="image featured"><img src="images/gamer.jpg" alt="Gamingset" /></a>
-                            <p>
-                                See our gaming computer with the latest CPU, awesome graphics and more power than you'll ever use in the next few years!
-                            </p>
-                        </section>
 
-                    </div>
-                </div>
             </div>
             <div class="row 200%">
                 <div class="12u">
@@ -263,13 +202,9 @@
         </div>
     </div>
 
-    
+        
 
-        <script>
-            //var theResponse = putCode("footer");
-            var test = "Tjohoo!";
-            document.write(test);
-        </script>
+        <script>document.write(putCode("footer"));</script>
 
 
     </div>
@@ -282,7 +217,5 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
-    <script src="footer.js"></script>
-
 </body>
 </html>
