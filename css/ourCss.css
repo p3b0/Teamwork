@@ -45,3 +45,20 @@
     margin-right:10px;
     margin-top: -15px;
 }
+
+.major > span
+{
+    color: #858585;
+}
+
+.footerStyle
+{
+    text-align:left;
+}
+
+.timeStamp
+{
+    font-style: italic;
+    color:#AAAAAA;
+    font-size:11px;
+}
