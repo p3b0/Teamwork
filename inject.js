@@ -37,8 +37,8 @@
                 "<section class='footerStyle'>" +
                     "<h2 class='major'><span>What's this about?</span></h2>" +
                     "<p>" +
-                        "ComputerStore Inc. skickar vanligtvis beställda varor inom 24 timmar (om de finns i vårt postorderlager).<br />" +
-                        "Beställ härifrån eller ring 08 - 123 45 67. Alla priser är i svenska kronor inklusive moms och gäller även i butik." +
+                        "Computer Store Inc. usually send the goods ordered within 24 hours (if they are in our mail order warehouse).<br />" +
+                        "Order here or call 08-123 45 67. All prices are in Swedish kronor including VAT and are valid even in stores." +
                     "</p>" +
                 "</section>" +
             "</div>" +
